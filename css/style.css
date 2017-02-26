@@ -79,6 +79,12 @@ main {
   line-height: 1.7em;
 }
 
+.post li {
+  margin-bottom: 0.5em;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+}
+
 .post code,
 .post pre {
   padding: 0 0.4em;
@@ -114,4 +120,28 @@ main {
 .logotipes img {
   width: 25%;
   height: auto;
+}
+
+footer {
+  min-width: 1140px;
+  background-color: #7dacb0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1140px;
+  padding: 30px 70px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.footer__container a {
+  color: #ffffff;
+}
+
+.footer__container a:hover,
+.footer__container a:active {
+  color: #ca7031;
 }
