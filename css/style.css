@@ -96,3 +96,22 @@ main {
   justify-content: space-around;
   align-items: center;
 }
+
+.logotipes {
+  min-width: 1140px;
+  background-color: #ffffff;
+}
+
+.logotipes__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  padding: 50px 70px;
+  margin: 0 auto;
+}
+
+.logotipes img {
+  width: 25%;
+  height: auto;
+}
