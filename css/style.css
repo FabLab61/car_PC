@@ -41,6 +41,10 @@ header {
   background-color: #62aeb2;
 }
 
+h1 {
+  font-size: 47px;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
