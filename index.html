@@ -122,7 +122,7 @@
         <code>sudo voicecommand</code>
         <p>After entering the command say <b>hello</b> to your microphone. If its working fine, text <b>hello</b> will be printed on the terminal.</p>
         <h3>Editing the configuration file</h3>
-        <p>The voice command input is converted to text using <b>google voice API</b>. By configuring the application files accordingly, we can enable the Pi to act upon our voice command. In this example, we control an LED connected to Pi. It can be switched on or off as per the users voice command. For which we would need two programs, one to switch on and the other to switch off. Click here to get the details on how to blink an LED using python script. Save the programs as <code>test12.py</code> and <code>test13.py</code>.</p>
+        <p>The voice command input is converted to text using <b>google voice API</b>. By configuring the application files accordingly, we can enable the Pi to act upon our voice command. In this example, we control an LED connected to Pi. It can be switched on or off as per the users voice command. For which we would need two programs, one to switch on and the other to switch off. Click here to get the details on how to blink an LED using python script. Save the programs as <a href="script/test12.py">test12.py</a> and <a href="script/test13.py">test13.py</a>.</p>
         <p>This files are presented in <a href="https://github.com/FabLab61/car_PC">repository</a>.</p>
         <p>When we say <b>LED ON</b>, the <b>test12.py</b> program should run and the LED glows. And when we say <b>LED OFF</b>, the <b>test13.py</b> should run to switch off the LED. To do this edit the configuration file as follows. Type in:</p>
         <code>sudo voicecommand -e</code>
@@ -143,7 +143,7 @@
         <code>ls /dev/tty*</code>
         <p>The result should be content <code>/dev/ttyACM0</code>.</p>
         <h3>Arduino programming</h3>
-        <p>Upload <b>serial_test.ino</b> code to Arduino. This file is presented in <a href="https://github.com/FabLab61/car_PC">repository</a>.</p>
+        <p>Upload <b><a href="scetch/led_through_serial_rus.ino">led_through_serial_rus.ino</a></b> code to Arduino. This file is presented in <a href="https://github.com/FabLab61/car_PC">repository</a>.</p>
         <pre>
 
   int led = 13;
